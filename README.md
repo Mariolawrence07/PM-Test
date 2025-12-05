@@ -23,6 +23,7 @@ Clean theming and consistent visual behavior
 Installation & Setup
 git clone https://github.com/mariolawrence07/PM-Test
 cd PM-Test
+git checkout Homepage
 npm install
 npm run dev
 
