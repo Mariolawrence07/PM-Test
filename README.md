@@ -20,7 +20,7 @@ Organized folder structure following scalable enterprise UI patterns
 
 Clean theming and consistent visual behavior
 
-🚀 Installation & Setup
+Installation & Setup
 git clone https://github.com/mariolawrence07/PM-Test
 cd PM-Test
 npm install
@@ -28,10 +28,9 @@ npm run dev
 
 
 Visit the running app:
+ http://localhost:5173
 
-👉 http://localhost:5173
-
-🧱 Project Structure
+Project Structure
 src/
   config/
     assets.ts           // Cloudinary asset URLs (centralized)
@@ -48,7 +47,7 @@ src/
   index.css
   main.tsx
 
-📌 Why This Structure Works
+Why This Structure Works
 
 Separation of concerns
 
