@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+/* @import "tailwindcss/preflight"; */
+
+/* @tailwind utilities; */
+
+
+/* Gilroy Font */
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../assets/fonts/Gilroy-Bold.woff2') format('woff2'),
+       url('../assets/fonts/Gilroy-Bold.woff') format('woff'),
+       url('../assets/fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  font-family: 'Gilroy', system-ui, -apple-system, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 700;
+
+  
+}
+  
+.container {
+  width: 100%;
+  max-width: 90rem; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.pmred {
+  color: #ED1D25;
+}
+
+ .text-pmred {
+  color: #ED1D25;
+}
+
+.b-pmred {
+  border: 1px solid #ED1D25;
+}
